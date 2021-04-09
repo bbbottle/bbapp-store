@@ -1,7 +1,18 @@
 {
     "private": true,
-    "workspaces": ["apps/*"],
+    "workspaces": [
+        "apps/*"
+    ],
     "scripts": {
-        "build": "yarn workspaces run build"
+        "build": "yarn workspaces run build",
+        "release": "release-it"
+    },
+    "release-it": {
+      "github": {
+        "release": true
+      }
+    },
+    "devDependencies": {
+        "release-it": "^14.6.0"
     }
 }
