@@ -1,0 +1,6 @@
+{
+    "name": "@bbbottle/bbapp-echo",
+    "devDependencies": {
+        "@bbbottle/bbbundle": "^0.1.27"
+    }
+}
