@@ -1,6 +1,10 @@
 {
     "name": "@bbbottle/bbapp-echo",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "bbbundle -f system"
+    },
     "devDependencies": {
-        "@bbbottle/bbbundle": "^0.1.27"
+        "@bbbottle/bbbundle": "0.1.29"
     }
 }
