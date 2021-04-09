@@ -8,11 +8,12 @@
         "release": "release-it"
     },
     "release-it": {
-      "github": {
-        "release": true
-      }
+        "github": {
+            "release": true
+        }
     },
     "devDependencies": {
         "release-it": "^14.6.0"
-    }
+    },
+    "version": "0.0.2"
 }
