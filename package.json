@@ -1,4 +1,7 @@
 {
     "private": true,
-    "workspaces": ["apps/*"]
+    "workspaces": ["apps/*"],
+    "scripts": {
+        "build": "yarn workspaces run build"
+    }
 }
