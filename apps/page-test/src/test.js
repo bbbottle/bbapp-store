@@ -2,6 +2,6 @@ import React from 'react';
 
 export const TestPage = () => {
   return (
-    <div>HELLO, This is a test Page.</div>
+    <div className="center">Hello, This is just a test Page.</div>
   );
 }
