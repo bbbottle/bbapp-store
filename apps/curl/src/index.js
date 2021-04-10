@@ -1,9 +1,9 @@
 export default {
   name: 'curl',
-  handler: async (shell, [ resource ], parsed) => {
+  handler: async (shell, args) => {
 
     try {
-      const res = await fetch(resource);
+      const res = await fetch(args[0]);
       const text = await res.text();
       await shell.print(text);
     } catch (e) {
