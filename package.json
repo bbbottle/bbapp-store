@@ -5,15 +5,22 @@
     ],
     "scripts": {
         "build": "yarn workspaces run build",
-        "release": "release-it"
+        "g-meta": "node scripts/generate_app_meta_info.js",
+        "release": "release-it --ci"
     },
     "release-it": {
         "github": {
             "release": true
+        },
+        "npm": {
+            "release": false
         }
     },
     "devDependencies": {
-        "release-it": "^14.6.0"
+        "glob": "^7.1.6",
+        "release-it": "^14.6.0",
+        "semver": "^7.3.5",
+        "shelljs": "^0.8.4"
     },
     "version": "0.0.2"
 }
