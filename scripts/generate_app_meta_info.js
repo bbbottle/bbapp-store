@@ -12,10 +12,9 @@ const calcNextPatchVersion = () => {
 const appPath2cdnPath = (filePath, ver) => {
   const CDN_BASE = 'https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store';
   const VER = `@${ver}`;
-  const BRANCH = 'main';
   const DIST = 'dist/index.js';
 
-  return `${CDN_BASE}${VER}/${BRANCH}/${filePath}/${DIST}`;
+  return `${CDN_BASE}${VER}/${filePath}/${DIST}`;
 }
 
 const writeMetaInfo = (metaInfo, filePath= path.resolve('apps_meta.json')) => {
