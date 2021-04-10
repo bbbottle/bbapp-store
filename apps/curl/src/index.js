@@ -1,7 +1,6 @@
 export default {
   name: 'curl',
   handler: async (shell, args) => {
-
     try {
       const res = await fetch(args[0]);
       const text = await res.text();
