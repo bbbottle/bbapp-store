@@ -1,7 +1,7 @@
 [
   {
-    "name": "echo",
+    "name": "curl",
     "type": "command",
-    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.7/apps/echo/dist/index.js"
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.8/apps/curl/dist/index.js"
   }
 ]
