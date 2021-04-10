@@ -51,6 +51,7 @@ glob("apps/*/app.json", function (er, files) {
     }
   })
 
+  //todo: Determine if git working directory is clean before writing meta info.
   writeMetaInfo(metaInfo);
   commitMetaChanges();
 })

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "echo",
+    "type": "command",
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.3/main/apps/echo/dist/index.js"
+  }
+]
