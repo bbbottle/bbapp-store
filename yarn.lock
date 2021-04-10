@@ -917,10 +917,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bbbottle/bbbundle@0.1.29":
-  version "0.1.29"
-  resolved "https://npm.pkg.github.com/download/@bbbottle/bbbundle/0.1.29/c724277fca266a012268d10cc7b5d0baa8c3aa1eea7037d6c6b70716abbe6a0c#b2c3029efcd8df3feb4c8ca612e2235ec23bdb47"
-  integrity sha512-6y4dsp7nK4KUSwRhi/caWag96MoPxlbkrcVEOaLkyf72SAR8Mvm11tylOEyVCFCofBQr1nAOUXw2RvybhF4c0A==
+"@bbbottle/bbbundle@0.1.31":
+  version "0.1.31"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/bbbundle/0.1.31/85f204e0f6b2f4518c8f57880c0bca0dbca2e6e7e50e3950f2282e42beb3358c#6931be8b13e8957d2b5fb7ea79186535e0b8dc69"
+  integrity sha512-Bq4xqF4Fa5txvUS2/BB/gSw75DC6orHQGPtd1BCr/RbYipWyAZGQK35llgxBBI6cDQ8DwvRB4Pbp0TIkDh3T4A==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-class-properties" "^7.12.1"

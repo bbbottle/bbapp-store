@@ -5,6 +5,6 @@
         "build": "bbbundle -f system"
     },
     "devDependencies": {
-        "@bbbottle/bbbundle": "0.1.29"
+        "@bbbottle/bbbundle": "0.1.31"
     }
 }
