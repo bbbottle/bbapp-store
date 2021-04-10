@@ -5,8 +5,7 @@
     ],
     "scripts": {
         "build": "yarn workspaces run build",
-        "g-meta": "node scripts/generate_app_meta_info.js",
-        "release": "release-it --ci"
+        "release": "node scripts/generate_app_meta_info.js && release-it --ci"
     },
     "release-it": {
         "github": {
