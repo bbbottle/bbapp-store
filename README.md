@@ -1,2 +1,2 @@
 # bbapp-store
-Apps for zjh.im
+Apps(pages, commands etc) for zjh.im
