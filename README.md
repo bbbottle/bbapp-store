@@ -1,2 +1,2 @@
 # bbapp-store
-dynamic apps for zjh.im
+Apps for zjh.im
