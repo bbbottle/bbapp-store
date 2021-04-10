@@ -942,6 +942,11 @@
     rollup-plugin-postcss "^3.1.8"
     rollup-plugin-terser "^7.0.2"
 
+"@bbbottle/bbicons@^0.1.2":
+  version "0.1.3"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/bbicons/0.1.3/f026ba9ebca2b963c36f424f4888df144afef2d8fe0da4584db224f6126463b1#1cf59e129f3f53a95d728f6d0875083a12dfc6a3"
+  integrity sha512-Ed+s4RUjWmylET84Yd7qH53+9irDs9IEwBb8BIvjKfeDjAk9clOI/xvzEV6L1PN0PaacXNzYNWdrFAoUHxKNyA==
+
 "@iarna/toml@2.2.5":
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
