@@ -25,6 +25,16 @@ const writeMetaInfo = (metaInfo, filePath= path.resolve('apps_meta.json')) => {
   }
 };
 
+const isGitWorkingDirectoryClean = () => {
+  const diffCmd = 'git status -s';
+  try {
+    const diffInfo = shell.exec(diffCmd).stdout;
+    return diffInfo.length <= 0;
+  } catch (e) {
+    return false;
+  }
+}
+
 const commitMetaChanges = () => {
   const msg = 'chore: update apps meta info';
   const gitCmd = `git commit -am "${msg}"`;
@@ -50,7 +60,9 @@ glob("apps/*/app.json", function (er, files) {
     }
   })
 
-  //todo: Determine if git working directory is clean before writing meta info.
+  if (!isGitWorkingDirectoryClean()) {
+    throw new Error("Git working directory is not clean. commit your changes first.")
+  }
   writeMetaInfo(metaInfo);
   commitMetaChanges();
 })
