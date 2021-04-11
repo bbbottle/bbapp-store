@@ -1,0 +1,13 @@
+{
+    "name": "@bbbottle/bbapp-window-test",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "bbbundle -f system"
+    },
+    "dependencies": {
+        "@bbbottle/bbicons": "^0.1.2"
+    },
+    "devDependencies": {
+        "@bbbottle/bbbundle": "0.1.31"
+    }
+}
