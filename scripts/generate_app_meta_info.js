@@ -64,6 +64,8 @@ glob("apps/*/app.json", function (er, files) {
     throw new Error("Git working directory is not clean. commit your changes first.")
   }
   writeMetaInfo(metaInfo);
-  commitMetaChanges();
+  if (!isGitWorkingDirectoryClean()) {
+    commitMetaChanges();
+  }
 })
 
