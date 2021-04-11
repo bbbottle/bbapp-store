@@ -2,16 +2,16 @@
   {
     "name": "curl",
     "type": "command",
-    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.18/apps/curl/dist/index.js"
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.19/apps/curl/dist/index.js"
   },
   {
     "name": "page-test",
     "type": "page",
-    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.18/apps/page-test/dist/index.js"
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.19/apps/page-test/dist/index.js"
   },
   {
     "name": "window-test",
     "type": "window",
-    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.18/apps/window-test/dist/index.js"
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.19/apps/window-test/dist/index.js"
   }
 ]
