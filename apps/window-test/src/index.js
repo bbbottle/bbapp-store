@@ -7,6 +7,6 @@ export default {
   icon: Unknown,
   component: TestPage,
   description: "window test",
-  widthRange: [200, 300],
-  heightRange: [200, 300],
+  widthRange: [800, 900],
+  heightRange: [600, 700],
 }
