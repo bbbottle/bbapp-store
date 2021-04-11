@@ -2,11 +2,11 @@
   {
     "name": "curl",
     "type": "command",
-    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.15/apps/curl/dist/index.js"
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.16/apps/curl/dist/index.js"
   },
   {
     "name": "page-test",
     "type": "page",
-    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.15/apps/page-test/dist/index.js"
+    "url": "https://cdn.jsdelivr.net/gh/bbbottle/bbapp-store@0.0.16/apps/page-test/dist/index.js"
   }
 ]
