@@ -13,7 +13,7 @@
             "release": true
         },
         "npm": {
-            "release": false
+            "publish": false
         },
         "hooks": {
             "before:init": "yarn g-meta"
