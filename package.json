@@ -16,7 +16,7 @@
             "release": false
         },
         "hooks": {
-            "before:release": "yarn g-meta"
+            "before:git:release": "yarn g-meta"
         }
     },
     "devDependencies": {
