@@ -4,6 +4,7 @@
         "apps/*"
     ],
     "scripts": {
+        "serve": "node scripts/serve_app.js",
         "build": "yarn workspaces run build",
         "g-meta": "node scripts/generate_app_meta_info.js",
         "release": "release-it --ci"
@@ -23,7 +24,8 @@
         "glob": "^7.1.6",
         "release-it": "^14.6.0",
         "semver": "^7.3.5",
-        "shelljs": "^0.8.4"
+        "shelljs": "^0.8.4",
+        "vite": "^2.2.1"
     },
     "version": "0.0.19"
 }

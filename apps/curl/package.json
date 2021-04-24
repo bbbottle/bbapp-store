@@ -1,10 +1,13 @@
 {
     "name": "@bbbottle/bbapp-curl",
     "version": "0.0.1",
+    "main": "dist",
     "scripts": {
-        "build": "bbbundle -f system"
+        "build": "bbbundle -f system",
+        "dev": "bbbundle dev -f system"
     },
     "devDependencies": {
-        "@bbbottle/bbbundle": "0.1.31"
+        "@bbbottle/bbbundle": "0.2.1",
+        "vite": "^2.2.1"
     }
 }
