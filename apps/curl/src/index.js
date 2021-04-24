@@ -3,7 +3,8 @@ export default {
   handler: (shell, args) => {
     const err = shell.shell.chalk.red;
     const green = shell.shell.chalk.green;
-    const exeText = r => r.text();
+    const getText = r => r.text();
+    const printText = t => shell.print(t);
     const printEmptyLine = () => shell.printLine('');
     const showUsageAndExample = () => {
       return Promise.all([
@@ -30,8 +31,8 @@ export default {
     }
 
     return fetch(args[0])
-      .then(exeText)
-      .then(shell.print)
+      .then(getText)
+      .then(printText)
       .then(printEmptyLine)
   }
 }
