@@ -1,0 +1,63 @@
+$green-1: #51c49f;
+$green-2: #82d5bb;
+$green-3: #9ddec9;
+$green-4: #c2eade;
+$green-5: #f1fffa;
+$font: Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica,
+  Arial, sans-serif;
+
+$black: #000;
+$gray-1: #333333;
+$gray-2: #4f4f4f;
+$gray-3: #828282;
+$gray-4: #bdbdbd;
+$gray-5: #e0e0e0;
+$gray-6: #f2f2f2;
+$white: #ffffff;
+
+.green1 {
+  color: $green-1;
+}
+.green2 {
+  color: $green-2;
+}
+.green3 {
+  color: $green-3;
+}
+.green4 {
+  color: $green-4;
+}
+.green5 {
+  color: $green-5;
+}
+
+.gray1 {
+  color: $gray-1;
+}
+.gray2 {
+  color: $gray-2;
+}
+.gray3 {
+  color: $gray-3;
+}
+.gray4 {
+  color: $gray-4;
+}
+.gray5 {
+  color: $gray-5;
+}
+.gray6 {
+  color: $gray-6;
+}
+
+.white {
+  color: $white;
+}
+.black {
+  color: $black;
+}
+
+.docFont {
+  font-family: $font;
+}

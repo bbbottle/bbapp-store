@@ -1,0 +1,61 @@
+$green-1: #51c49f;
+$green-2: #82d5bb;
+$green-3: #9ddec9;
+$green-4: #c2eade;
+$green-5: #f1fffa;
+
+.blinkDot {
+  animation-name: blink-dot;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink-dot {
+  from {
+    color: #fff;
+  }
+
+  to {
+    color: #6bcba8;
+  }
+}
+
+.tickLoader {
+  display: inline-block;
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    width: 6px;
+    background: $green-1;
+    height: 1px;
+  }
+  &:before {
+    margin-bottom: 5px;
+    animation: tick 0.5s infinite;
+  }
+  &:after {
+    animation: tick 0.5s infinite reverse;
+  }
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes tick {
+  0% {
+    width: 6px;
+    background: $green-4;
+  }
+  50% {
+    width: 12px;
+    background: $green-1;
+  }
+  100% {
+    width: 6px;
+    background: $green-4;
+  }
+}

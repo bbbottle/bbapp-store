@@ -1,0 +1,44 @@
+.canvasPage {
+  position: relative;
+  cursor: crosshair;
+
+  * {
+    user-select: none;
+  }
+  height: 100%;
+
+  $green-1: #51c49f;
+  $green-2: #82d5bb;
+  $green-3: #9ddec9;
+  $green-4: #c2eade;
+  $green-5: #f1fffa;
+
+  $canvasBackgroundColor: #fff;
+  $crossColor: $green-2;
+
+  //background:
+  //        linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
+  //        linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px),
+  //        linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+  //        linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+  //        linear-gradient(transparent 3px, $canvasBackgroundColor 3px, $canvasBackgroundColor 78px, transparent 78px),
+  //        linear-gradient(-90deg, $crossColor 1px, transparent 1px),
+  //        linear-gradient(-90deg, transparent 3px, $canvasBackgroundColor 3px, $canvasBackgroundColor 78px, transparent 78px),
+  //        linear-gradient($crossColor 1px, transparent 1px),
+  //        $canvasBackgroundColor;
+  //
+  //background-size:
+  //        4px 4px,
+  //        4px 4px,
+  //        80px 80px,
+  //        80px 80px,
+  //        80px 80px,
+  //        80px 80px,
+  //        80px 80px,
+  //        80px 80px;
+
+  //background-size: 40px 40px;
+  //background-image:
+  //  linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+  //  linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+}

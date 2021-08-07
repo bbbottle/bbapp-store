@@ -1,0 +1,134 @@
+.windowTitleBar {
+  display: flex;
+}
+
+.halfTransparent {
+  opacity: 0.5;
+}
+
+.none {
+  display: none;
+}
+
+.windowOptionButton {
+  border: none;
+  outline: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: default !important;
+}
+
+.hoverAbsAfterAndBefore {
+  position: relative;
+  &:hover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.disabledButton {
+  background: #f2f2f2 !important;
+  pointer-events: none;
+}
+
+.topLayer {
+  z-index: 1000;
+}
+
+.noPointerEvent {
+  pointer-events: none;
+}
+
+.close {
+  background: #ff8888;
+  &:hover:after,
+  &:hover:before {
+    width: 7px;
+    height: 1px;
+  }
+
+  &:hover:after {
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #6a3b3b;
+  }
+  &:hover:before {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background: #333;
+  }
+}
+
+.minimize {
+  background: #fdd587;
+  &:hover:after {
+    width: 7px;
+    height: 1px;
+    background: #333;
+  }
+}
+
+.zoom {
+  background: #51c49f;
+  &:hover:after,
+  &:hover:before {
+    width: 7px;
+    height: 1px;
+    background: #333;
+  }
+
+  &:hover:before {
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+.windowOptionButtonGroup {
+  position: absolute;
+  margin: 13px;
+  width: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+}
+
+.windowTitle {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.window {
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0 4px 50px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  transition: 0.3s;
+}
+
+.windowBody {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}

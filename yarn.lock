@@ -943,10 +943,73 @@
     rollup-plugin-postcss "^3.1.8"
     rollup-plugin-terser "^7.0.2"
 
+"@bbbottle/bbbundle@^0.1.26":
+  version "0.1.31"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/bbbundle/0.1.31/85f204e0f6b2f4518c8f57880c0bca0dbca2e6e7e50e3950f2282e42beb3358c#6931be8b13e8957d2b5fb7ea79186535e0b8dc69"
+  integrity sha512-Bq4xqF4Fa5txvUS2/BB/gSw75DC6orHQGPtd1BCr/RbYipWyAZGQK35llgxBBI6cDQ8DwvRB4Pbp0TIkDh3T4A==
+  dependencies:
+    "@babel/core" "^7.12.3"
+    "@babel/plugin-proposal-class-properties" "^7.12.1"
+    "@babel/plugin-proposal-export-default-from" "^7.12.1"
+    "@babel/plugin-transform-runtime" "^7.13.10"
+    "@babel/preset-env" "^7.12.1"
+    "@babel/preset-react" "^7.12.5"
+    "@babel/runtime" "^7.1.2"
+    "@rollup/plugin-babel" "^5.3.0"
+    "@rollup/plugin-json" "^4.1.0"
+    "@svgr/rollup" "^5.5.0"
+    commander "^6.2.0"
+    node-sass "^5.0.0"
+    rollup "^2.33.3"
+    rollup-plugin-babel "^4.4.0"
+    rollup-plugin-commonjs "^10.1.0"
+    rollup-plugin-node-resolve "^5.2.0"
+    rollup-plugin-peer-deps-external "^2.2.4"
+    rollup-plugin-postcss "^3.1.8"
+    rollup-plugin-terser "^7.0.2"
+
 "@bbbottle/bbicons@^0.1.2":
   version "0.1.3"
   resolved "https://npm.pkg.github.com/download/@bbbottle/bbicons/0.1.3/f026ba9ebca2b963c36f424f4888df144afef2d8fe0da4584db224f6126463b1#1cf59e129f3f53a95d728f6d0875083a12dfc6a3"
   integrity sha512-Ed+s4RUjWmylET84Yd7qH53+9irDs9IEwBb8BIvjKfeDjAk9clOI/xvzEV6L1PN0PaacXNzYNWdrFAoUHxKNyA==
+
+"@bbbottle/bbterm@0.3.6":
+  version "0.3.6"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/bbterm/0.3.6/7f33ccac35e3a26e0e86017f0787bc43401f36a9e25457051bec17d6c2b94e1b#d701bd9230615bce0a1a076f035d89775104fea7"
+  integrity sha512-Bm/yXFKdTHHFRXwH0Bs7rgf/SDTBIe0CiQTiz32XFjuT1oRcWSU/UWQ9PpSzgZrNprPIy7KhavjJqiI2ym4YyQ==
+  dependencies:
+    "@bbbottle/bbbundle" "^0.1.26"
+    "@bbbottle/xterm" "4.12.0"
+    "@bbbottle/xterm-js-shell" "1.1.15"
+    ansi-colors "^4.1.1"
+
+"@bbbottle/box-canvas@0.3.0":
+  version "0.3.0"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/box-canvas/0.3.0/995924171cd9c304bda26559a80b6f2136061e6bdcde72690f1d2f6d526a092c#3d78be87c86b9a1a1724a029ea573dfd76c114fc"
+  integrity sha512-SZ1iMA/mh8+C/qDNFUSWeHuSXz8YFAAeP2yJ0wCflVExYfUqaBgiQAxM4bVsUfqys353pbWpdnidV3pVxXmm/g==
+
+"@bbbottle/xterm-js-shell@1.1.15":
+  version "1.1.15"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/xterm-js-shell/1.1.15/bdb8969ac6ff3a7098879a05408f30b6baad7357d93aff2936e9e44b7c755190#740b396a23d329dd4a9bb880ea0dd7b7dd9c8b4e"
+  integrity sha512-JEP6tQ7YPY9MzxDiC/tfKF7WytSpvcMBPzerV2WKuLfrRXefQIn02KeIuO23xxaZmNLb+knVZLrlzn0Ffe9zqQ==
+  dependencies:
+    "@fikrikarim/local-echo" "^0.4.1"
+    ansi-styles "^3.2.1"
+    event-iterator "^1.2.0"
+    minimist "^1.2.0"
+    string-to-argv "^1.0.0"
+
+"@bbbottle/xterm@4.12.0":
+  version "4.12.0"
+  resolved "https://npm.pkg.github.com/download/@bbbottle/xterm/4.12.0/1a7633a4c4a21beb8120e31ccd00298249402e5eea8c1ad2761adcb7c641debe#c495b06127840b9ee29e17c2de9396a8ea744d87"
+  integrity sha512-jD2Q+nN73QmtlJGElMQQt3nMfeH9eom0uQW21IZEOjDUvwEiNqGaz6JX9j2AFxo+JPl8bdaSedBiGUmdGBd0nw==
+
+"@fikrikarim/local-echo@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.nlark.com/@fikrikarim/local-echo/download/@fikrikarim/local-echo-0.4.1.tgz#8e217878401df42a44baf5740bdeebeec30e6c7a"
+  integrity sha1-jiF4eEAd9CpEuvV0C97r7sMObHo=
+  dependencies:
+    shell-quote "^1.6.1"
 
 "@iarna/toml@2.2.5":
   version "2.2.5"
@@ -1328,6 +1391,11 @@ ansi-align@^3.0.0:
   integrity sha512-ZpClVKqXN3RGBmKibdfWzqCY4lnjEuoNzU5T0oEFpfd/z5qJHVarukridD4juLO2FXMiwUQxr9WqQtaYa8XRYw==
   dependencies:
     string-width "^3.0.0"
+
+ansi-colors@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.nlark.com/ansi-colors/download/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
+  integrity sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=
 
 ansi-escapes@^4.2.1:
   version "4.3.2"
@@ -2349,6 +2417,11 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
+
+event-iterator@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/event-iterator/download/event-iterator-1.2.0.tgz#2e71dc6ca56f1cf8ebcb2b9be7fdfd10acabbb76"
+  integrity sha1-LnHcbKVvHPjryyub5/39EKyru3Y=
 
 eventemitter3@^4.0.4:
   version "4.0.7"
@@ -4912,6 +4985,11 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
+shell-quote@^1.6.1:
+  version "1.7.2"
+  resolved "https://registry.nlark.com/shell-quote/download/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
+  integrity sha1-Z6fQLHbJ2iT5nSCAj8re0ODgS+I=
+
 shelljs@0.8.4, shelljs@^0.8.4:
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.4.tgz#de7684feeb767f8716b326078a8a00875890e3c2"
@@ -5054,6 +5132,11 @@ string-hash@^1.1.1:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/string-hash/-/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
   integrity sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
+
+string-to-argv@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.nlark.com/string-to-argv/download/string-to-argv-1.0.0.tgz#b45eb19c808ba6231d1c63169e7325d5879de297"
+  integrity sha1-tF6xnICLpiMdHGMWnnMl1Yed4pc=
 
 string-width@^1.0.1:
   version "1.0.2"

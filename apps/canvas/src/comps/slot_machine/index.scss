@@ -1,0 +1,20 @@
+.slotMachine {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px 1px #c4c4c4;
+  background: #ffffff;
+  z-index: 10;
+}
+
+.pattern {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pattersWrapper {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+}
